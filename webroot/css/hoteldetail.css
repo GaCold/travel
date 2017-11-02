@@ -1,0 +1,228 @@
+/*định dạng màu cho body*/
+body{
+        background: whitesmoke;
+        overflow-x: hidden;
+}
+/*định dạng lớp container*/
+.container{
+    font-family: 'Old Standard TT', serif;
+    padding: 0;
+}
+/*định dạng lớp col-md-12*/
+.col-md-12{
+    padding: 0;
+}
+/*định dạng breadcrumb*/
+.breadcrumb-font{
+	font-size: 17px;	
+    text-align: right;
+    padding: 0;
+}
+.breadcrumb{
+    background: none;
+}
+/*begin slider image */
+/* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+        	position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+        	position: absolute;
+        	/* size of bullet elment */
+        	width: 16px;
+        	height: 16px;
+        	background: url('../img/b05.png') no-repeat;
+        	overflow: hidden;
+        	cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+        	display: block;
+        	position: absolute;
+        	/* size of arrow element */
+        	width: 30px;
+        	height: 46px;
+        	cursor: pointer;
+        	background: url('../img/a12.png') no-repeat;
+        	overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
+/*end slider image*/
+
+/*định dạng div chưa slider*/
+.slider{
+	padding: 0;
+}
+/*padding-left div gợi ý*/
+.padd{
+	padding-right: 0;
+}
+/*định dang div chưa gợi ý*/
+.goiy{
+	background: white;
+	padding: 3% 5% 3% 4%;
+}
+/*định dạng tiêu đề tên khách sạn*/
+.h4-header{
+	color: black;
+	font-size: 20px;
+}
+/*định dạng mô tả khách sạn*/
+.p-descripe{
+    text-align: justify;
+}
+/*định dạng nút*/
+.btna{
+    background: #FF8521;
+    color: white;
+    padding: 8px 10px;
+}
+.btna:hover{
+    color: white;
+    opacity: 0.8;
+}
+/*định dạng div chưa thông tin trợ giúp*/
+.help{
+    margin-top: 3%;
+    background: white;
+    padding: 3% 5% 3% 4%;
+}
+/*định dạng thông tin trợ giúp*/
+.contact{
+    font-size: 17px;
+    color: #173e43;
+    margin-top: 5px;
+}
+/*bỏ gạch chân a:hover*/
+a:hover{
+    text-decoration: none;
+}
+/*tab control*/
+.dodai{
+    margin-top: 3%;
+    width: 100%;    
+    height: auto;
+}
+/*định dạng màu tiêu đè tab control*/
+.dodai ul li a{
+    font-size: 17px;
+    color: black;
+}
+/*tên tiều đề input tab 2*/
+.lb2{
+    color: #173e43;
+    font-size: 12px;
+}
+/*end tab control*/
+.p-hotel{
+    font-size: 15px;
+    padding: 25px 25px 0 25px;
+}
+/*định dạng mùa cho tab controll khi chọn*/
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: #FF8521;
+}
+/*màu nền tab cotrol*/
+.fade, .fade form div, .fade div{
+    background: white;
+}
+.menutab{
+    padding: 25px 10px 35px 10px;
+ }
+/*định dạng tab control padding và margin*/
+.colpadd{
+    padding-right: 0;
+    margin-left: 10px;
+}
+/*icon search*/
+.ac{
+    padding-top: 36px;   
+}
+.ac a{
+    color: #FF8521;
+}
+.ac a:hover{
+    opacity: 0.8;
+}
+/*tab 3*/
+#home span{
+    font-size: 28px;
+    padding-left: 25px;
+    word-spacing: -8px;
+    color: #FF8521;
+}
+/*tab 3 label*/
+#home label{
+    font-weight: normal;
+    padding-left: 15px;
+    font-size: 16px;
+}
+#home div div{
+    margin-top: 15px;
+}
+/*padding tiêu đề tab 2*/
+.title{
+    padding-left: 40px;
+}
+/*màu datepicker*/
+.datepicker td.active, .datepicker td.active:hover {
+    background-image: linear-gradient(to bottom, #FF8521, #FF8521);
+}
+/*màu thanh tiến trình*/
+#review{
+    background: #FF8521; 
+}
+/*màu nền thanh tiến trình*/
+#maunen{
+    background: #334431;
+    margin-top: 22px;
+}
+/*định dạng label tab control*/
+.margin-review label{
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 5px;
+    text-align: left;
+}
+/*định dạng ảnh*/
+.img-circle{
+    border: 1px solid gray;
+    margin-left: 10px;
+}
+/*màu chữ lịch trình*/
+.lichtrinh{
+    color: #FF8521;
+}
+.img-lichtrinh{
+    width: 100%;
+    max-height: 350px;
+}
+.btn-warning, .btn-warning:hover{
+    background: #FF8521;
+    color: white;
+}

@@ -1,0 +1,161 @@
+body{
+	overflow-x: hidden;
+}
+.nav-menu{
+    z-index: 99999;
+    top: 0px;
+    width: 100%;
+    background: white;
+    margin: 0px;
+    transition: .4s;
+}
+
+.navbar {
+    margin: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 1px;
+    border-radius: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+.navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    color: white !important;
+}
+.nav-menu .navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    color: #FF8521 !important;
+}
+/*.navbar li a, .navbar .navbar-brand { mau chu the li
+    color: black !important;
+    }*/
+    .navbar li a{ /*mau chu the li*/
+        color: black !important;
+    }
+
+    .navbar-nav li a:hover, .navbar-nav li.active a{
+        color: #FF8521 !important;
+        opacity: 1;
+        /* background-color:none !important; *//*mau khung the li menu*/
+    }
+    .navbar-nav .icon-search:hover{
+        color: #FF8521;
+        background: white;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+        /*background: none;*/
+        color: #fff !important;
+    }
+    .nav-background .icon-button-nav .line{
+        background-color: #ff8521;
+    }
+    .nav-background .icon-button-nav:hover{
+        background: white;
+        color: #FF8521;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+    .navbar-header{
+        /*padding-right: 30px;*/
+    }
+    .nav-background{
+       background: none;
+   }
+   .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background-color: white;
+}
+#myNavbar .dropdown-menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav>.openmenu>a:hover{
+ /*background: rgba(23,62, 67,.9);*/
+}
+#myNavbar .dropdown-menu li a{
+    padding:10px 15px;
+    background-color: white;
+    color: white;
+}
+@media (min-width: 480px) {
+    .inputsearch{
+        margin-right: 30px;
+    }
+}
+
+.btn-default-1 {
+    color: #FF8521;
+    background-color: transparent;
+    border-color: #FF8521;
+    border-radius: 0px;
+}
+.btn-default-1:hover{
+    opacity: 0.8;
+    color: #FF8521;
+}
+.navbar-right .input-group input{
+    color: black;
+    background-color: transparent;
+    border-color: #FF8521;
+    border-radius: 0px;
+}
+
+.fixedmenu{
+    position: fixed;
+    transform: 0.4s;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom: 1px solid whitesmoke;
+}
+.fixedmenu li{
+    transition: 0.4s;
+    margin: 0px;
+    font-size: 15px;
+}
+.fixedmenu .navbar-brand{
+    transition: 0.4s;
+    margin: 0px;
+    font-size: 20px;
+}
+.fixedmenu .navbar-form input{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+.navbar-inverse .navbar-toggle:before {
+    color: #ff8521;
+}
+
+.navbar-inverse .navbar-toggle:hover:before, .navbar-inverse .navbar-toggle:focus:before {
+    color: #ff8521;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    /*margin-right: -15px;*/
+    /*margin-left: -15px;*/
+}
+.navbar .container, .navbar .container-fluid {
+    padding-right: 21px;
+    padding-left: 21px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+   opacity: 0.5;
+
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color:white !important;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #ff8521;
+}

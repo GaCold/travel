@@ -1,0 +1,26 @@
+
+.text-danger {
+	color:red;
+	font-size: 18px;
+}
+
+.container-signup .form-group{
+    display: inline-block;
+    width: 100%;
+
+#level,#phone_number{width: 48%;}
+
+
+.container-signup .form-control .upload{width: 300px;}
+
+/*2 nút cuối*/
+.container-signup .btn-singup{    
+    background-color: #FF8521; 
+    color:white;
+    margin-top: 7px;
+    border:2px solid #FF8521;
+}
+.container-signup .btn-singup:hover{
+    opacity: .8;
+}
+/*end 2 nút cuối*/

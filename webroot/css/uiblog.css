@@ -1,0 +1,24 @@
+.content-uiblog{
+	/*border:1px solid red;*/
+	min-height:600px;
+}
+.wrapper-uiblog{
+	padding: 0px;
+}
+.title-uiblog{
+	text-align: center;
+	 padding: 50px;
+	 color: #FF8521;
+}
+.content-ui{
+	 padding: 0px;
+	 margin-bottom: 10px;
+}
+.img-uiblog{
+	margin-bottom: 10px
+}
+.submit-uiblog{
+	text-align: left;
+	padding: 10px; 
+	margin-bottom: 10px;
+}

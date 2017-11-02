@@ -1,0 +1,42 @@
+/*định dạng cacs div gợi ý*/
+#goiy{
+        color: white;
+        background: #FF8521;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 0;
+        font-size: 15px;
+        width: 100%;
+}
+/*định dạng hình*/
+.food-img{
+        width: 100%;
+        height: 120px;
+        padding-top: 0;
+        margin-top: 0;
+}
+.food-img:hover{
+        opacity: 0.5;
+        cursor: pointer;
+}
+/*định dạng div chứa hình*/
+.the-chua-hinh{
+	border: 1px solid whitesmoke;
+	background: white;
+	padding: 0;
+	margin-bottom: 10px;
+	text-align: center;
+}
+/*float div left*/
+.trai{
+	padding-right: 5px;
+}
+/*float div right*/
+.phai{
+	padding-left: 5px;
+        margin-right: 0;
+}
+/*định dạng label*/
+.lb{
+	padding-top: 10px;
+}

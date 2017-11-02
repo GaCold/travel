@@ -1,0 +1,22 @@
+.tknc{
+	border: 1px solid #333;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.tim-kiem-nang-cao{
+	margin: 20px;
+	display: none;
+}
+.tknc:hover{
+	color: #FF8521;
+	cursor: pointer;
+}
+.tabcontrol-seach{
+	position: absolute;
+	z-index: 99;
+	top: -200px;
+	background-color: white;
+	text-align: left;
+	display: block;
+}

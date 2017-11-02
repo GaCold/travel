@@ -1,0 +1,228 @@
+
+.container-hotel{
+	background: white;
+}
+.title-hotel-hot{
+	text-align: center;
+}
+/*div chứa thông tin khách sạn*/
+.page-hotel{
+	min-height: 500px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/*div từ khóa tìm kiếm bên phải*/
+.page-hotel .page-hotel-keysearch, .page-hotel .select-page-hotel{
+	padding: 15px 15px;
+	background: rgba(255,255,255,.7);
+	margin-bottom: 15px;
+	border:1px solid whitesmoke;
+	border-radius: 5px;
+}
+/*nút tìm kiếm trang khách sạn*/
+.btn-page-hotel{
+	padding: 8px 15px 8px 15px;
+	color: #FF8521;
+	background: white;
+	border:2px solid #FF8521;
+}
+/*nút tìm kiếm kh hover*/
+.btn-page-hotel:hover{
+	background: #FF8521;
+	color: white;
+}
+/*checkbok thời gian*/
+.radio{
+	border-radius: 0px;
+}
+.radio label:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.radio .cr {
+	position: relative;
+	display: inline-block;
+	border: 1px solid #a9a9a9;
+	border-radius: .25em;
+	width: 1.3em;
+	height: 1.3em;
+	float: left;
+	margin-right: .5em;
+}
+
+.radio .cr {
+	border-radius: 50%;
+}
+
+.radio .cr .cr-icon {
+	position: absolute;
+	font-size: .8em;
+	line-height: 0;
+	top: 50%;
+	left: 20%;
+}
+
+.radio .cr .cr-icon {
+	margin-left: 0.04em;
+}
+
+.radio label input[type="radio"] {
+	display: none;
+}
+
+.radio label input[type="radio"] + .cr > .cr-icon {
+	transform: scale(3) rotateZ(-20deg);
+	opacity: 0;
+	transition: all .3s ease-in;
+}
+
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+	transform: scale(1) rotateZ(0deg);
+	opacity: 1;
+}
+
+.radio label input[type="radio"]:disabled + .cr {
+	opacity: .5;
+}
+/*end checkbook*/
+
+/*định dạng đường kẻ div bên phải*/
+.page-hotel hr{
+	width: 40%;
+	margin-top: 10px;
+	margin-bottom: 4px;
+}
+/*tiêu đề div bên phải*/
+.page-hotel .select-page-hotel h3{
+	font-size: 20px;
+	text-align: center;
+}
+
+/*css title hotel*/
+
+body{
+	background-color: rgba(250, 250, 250, .8);
+	font-family: 'Quicksand', sans-serif;
+}
+/*canh giữa tiêu đề div bên phải*/
+.title-hotel-hot{
+	text-align: center;
+}
+/*định dạng hr*/
+.title-hotel-hot >hr{
+	width: 20%;
+	margin-top: 20px;
+	margin-bottom: 
+}
+/*định dạng văn bản*/
+.title-hotel-hot >p{
+	margin-bottom: 50px;
+}
+/*bao khung quanh chi tiết khách sạn*/
+.border-hotel{
+	border: 1px solid #999;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.border-hotel >.border{
+	border: 1px solid #999;
+}
+/*xong bao khung*/
+
+/*nội dung khách sạn*/
+.content-hotel {
+	min-height: 50px;
+}
+
+/*hình nội dung khiể chuột*/
+.ks-img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/*css container hotel hot*/
+.container-hotel{
+    width: 100%;
+}
+/*màu nền phần khách sạn*/
+.container-hotel .hotel-hot{
+    background-color:#FAFAFA !important;
+    overflow:hidden;
+}
+.hotel-hot .animate-box:nth-child(1){
+	animation-delay: .1s;
+}.hotel-hot .animate-box:nth-child(2){
+	animation-delay: .2s;
+}.hotel-hot .animate-box:nth-child(3){
+	animation-delay: .3s;
+}.hotel-hot .animate-box:nth-child(4){
+	animation-delay: .4s;
+}.hotel-hot .animate-box:nth-child(5){
+	animation-delay: .5s;
+}.hotel-hot .animate-box:nth-child(6){
+	animation-delay: .6s;
+}.hotel-hot .animate-box:nth-child(7){
+	animation-delay: .7s;
+}.hotel-hot .animate-box:nth-child(8){
+	animation-delay: .8s;
+}.hotel-hot .animate-box:nth-child(9){
+	animation-delay: .9s;
+}
+.hotel-hot .title-hotel-hot{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.hotel-summer .title-hotel-summer, .title-hotel-forgein, .title-hotel-domestic{
+    text-align: center;
+    padding: 50px 0px 100px 0px;
+    border-bottom-width: 20% solid #333;
+}
+.content-hotel-hot .view-hotel-hot, .content-hotel-summer .view-hotel-summer, .content-hotel-forgein .view-hotel-forgein{
+    padding: 10px 10px;
+}
+
+.hotel-hot .hr-bottom, .hotel-summer .hr-bottom, .hotel-forgein .hr-bottom, .hotel-domestic .hr-bottom{
+    border-top:2px solid #00bfff;
+    width: 15%;
+    margin: auto;
+}
+
+
+/*phân trang*/
+.phantrang li a{
+	color: #FF8521;
+}
+.phantrang li a:hover{
+	background: #FF8521;
+	color: white;
+}
+.phantrang .active{
+	background: #FF8521;
+	color: white;
+}
+/*xong phân trang*/
+
+hr{
+	color: #FF8521;
+	border-top:1px solid #FF8521;
+}
+
+/*div lớn chưa khách sạn*/
+.container-hotel .detail-hotel{
+	min-height: 80px;
+}
+.container-hotel .detail-hotel p{
+	margin: 2px;
+}
+.container-hotel .detail-hotel hr{
+	width: 20%;
+	background-color: #FF8521;
+	margin-bottom: 0px;
+	margin-top:0px;
+}
+.container-hotel .star{
+	color: #FF8521;
+}
+
+/*end css title hotel*/
